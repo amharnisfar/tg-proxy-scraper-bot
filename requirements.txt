@@ -2,3 +2,4 @@ python-telegram-bot
 selenium
 asyncio
 re
+python-dotenv
