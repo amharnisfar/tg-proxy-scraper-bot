@@ -16,7 +16,7 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 # Before running, set it in your terminal:
 # For Windows: set TELEGRAM_BOT_TOKEN="YOUR_NEW_TOKEN"
 # For Linux/macOS: export TELEGRAM_BOT_TOKEN="YOUR_NEW_TOKEN"
-TELEGRAM_BOT_TOKEN = "<YOUR_BOT_TOKEN_HERE>"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # A dictionary mapping user-friendly country names to their URLs
 COUNTRY_URLS = {
